@@ -24,7 +24,7 @@ int get_width(const char *format, int *lt, va_list roll)
 		else if (format[record] == '*')
 		{
 			record++;
-			width = va_arg(lt, int);
+			width = va_arg(roll, int);
 			break;
 		}
 		else
