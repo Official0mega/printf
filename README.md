@@ -1,17 +1,17 @@
 <h5> WELCOME TO MY COLLABORATED ALX GROUP PROJECT </h5> 
 
-###Introduction to our Group Project
+##Introduction to our Group Project
 
 Project _printf() - Produce output to stdout according to a format described below similar to the printf() function.
 
-###Evironment
+##Evironment
 - Language: C
 - Editor: VIM 8.1.2269
 - Compiler: gcc 9.3.0
 - Wall -Werror -Wextra -pedantic -std=gnu89
 - Style guidelines: [Betty style]
 
-###Project Specification 
+##Project Specification 
 
 - No allowed to use global variable
 - No more than 5 functions per file
@@ -27,7 +27,7 @@ Specifier characters at the end define the type and the interpretation of its co
 | `d` or `i` | Signed integer  |
 | `%`        | %               |
 
-###Repository Files
+##Repository Files
 
 |**File**|**Description**|
 |--------|---------------|
@@ -42,11 +42,11 @@ Specifier characters at the end define the type and the interpretation of its co
 |man_3_printf | man page|
 |printf_flowchart.png | flowchart _printf|
 
-###Install
+##Install
 To install execute in terminal
 git clone https://github.com/Official0mega/printf
 
-###Compilation
+##Compilation
 
 ``gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c``
 
@@ -62,8 +62,8 @@ git clone https://github.com/Official0mega/printf
 - _printf("Percent: [%%]\n");
   + Output: Percent: [%%]
 
-###Flowchart
+##Flowchart
 
 ![Flowchart](https://raw.githubusercontent.com/Official0mega/printf/main/printf_flowchart.png)
-###Created by [David James Taiye](https://github.com/Official0mega/) & [Samuel Philip](https://github.com/psalmu3l/)
+##Created by [David James Taiye](https://github.com/Official0mega/) & [Samuel Philip](https://github.com/psalmu3l/)
 
