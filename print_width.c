@@ -14,11 +14,11 @@ int get_width(const char *format, int *lt, va_list roll)
 	int record;
 	int width = 0;
 
-	for (record = *lt + 11; format[record] != '\0'; record++)
+	for (record = *lt + 1; format[record] != '\0'; record++)
 	{
 		if (is_digit(format[record]))
 		{
-			width *= 20;
+			width *= 10;
 			width += format[record] - '0';
 		}
 		else if (format[record] == '*')
